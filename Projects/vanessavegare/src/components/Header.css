@@ -1,0 +1,199 @@
+.header {
+    background-image: url("https://res.cloudinary.com/dgqomo8og/image/upload/v1738616421/vanessavegare/logos-icons/jukh3f34fetakgtuabef.webp");
+    background-size: cover;
+    height: 20vh !important;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  }
+  #header {
+    display: flex;
+    height: 20vh !important;
+  }
+  .mainHeader {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 30vw;
+    display: flex;
+    border-radius: 15px;
+    margin: 4px;
+    justify-content: space-evenly;
+  }
+  #capreHeader {
+    max-width: 128px;
+    max-width: 128px;
+  }
+  
+  .headerWords {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .headerWords p {
+    font-size: 0.75rem;
+  }
+  .headerWords h2 {
+    font-size: 1.5rem;
+  }
+  .headerText {
+    margin: 0px;
+    color: #c49841;
+    padding: 4px;
+    text-decoration: none;
+  }
+  #navlist {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 15vw;
+    margin: 4px;
+    padding: 8px;
+  }
+  #navlist2 {
+    display: none;
+  }
+  .navitems {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+  }
+  .navText {
+    color: #c49841;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  .navText:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* For Mobile */
+  @media screen and (max-width: 540px) {
+    .mainHeader {
+      height: 100%;
+      width: 100%;
+      align-items: center;
+      justify-content: space-evenly;
+      margin: 0px;
+      border-radius: 0px;
+    }
+    .headerWords h2 {
+      font-size: 1.25rem;
+    }
+    .headerWords p {
+      font-size: 0.75rem;
+    }
+    #navlist {
+      display: none;
+      width: 100vw;
+      margin: 0px;
+      border-radius: 0px;
+      padding: 0px;
+    }
+    #navlist2 {
+      background-color: rgba(0, 0, 0, 0.7);
+      display: none;
+      width: 100vw;
+      margin: 0px;
+      border-radius: 0px;
+      padding: 0px;
+    }
+    .navitems {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+    }
+  
+    #hamDiv {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 30vw;
+    }
+    #hamburger1,
+    #hamburger2,
+    #hamburger3 {
+      width: 35px;
+      height: 5px;
+      background-color: #c49841;
+      margin: 4px 0;
+      border-radius: 5px;
+      transition: 0.4s;
+    }
+  }
+  
+  /* For Tablet */
+  @media screen and (min-width: 540px) and (max-width: 820px) {
+    #mainHeader {
+      width: 100%;
+    }
+    .mainHeader {
+      height: 100%;
+      width: 100vw;
+      align-items: center;
+      justify-content: space-evenly;
+      margin: 0px;
+      border-radius: 0px;
+    }
+    .headerWords h2 {
+      font-size: 2.5rem;
+    }
+    .headerWords p {
+      font-size: 1rem;
+    }
+    .headerWords {
+      width: 30vw;
+    }
+    #capreLogo {
+      width: 30vw;
+    }
+    #navlist {
+      display: none;
+      width: 100vw;
+      margin: 0px;
+      border-radius: 0px;
+      padding: 0px;
+    }
+    #navlist2 {
+      background-color: rgba(0, 0, 0, 0.7);
+      display: none;
+      width: 100vw;
+      margin: 0px;
+      border-radius: 0px;
+      padding: 0px;
+    }
+    .navitems {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      padding: 0px;
+    }
+    .navitems a {
+      font-size: 1.25rem;
+      padding: 12px;
+    }
+    #hamDiv {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 30vw;
+    }
+    #hamburger1,
+    #hamburger2,
+    #hamburger3 {
+      width: 35px;
+      height: 5px;
+      background-color: #c49841;
+      margin: 4px 0;
+      border-radius: 5px;
+      transition: 0.4s;
+    }
+  }
+  

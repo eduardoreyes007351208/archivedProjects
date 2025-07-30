@@ -1,0 +1,313 @@
+/* --------------- Hero Section ---------------- */
+.hero {
+  height: 100vh;
+  width: 100vw;
+}
+.hero h1 {
+  margin: 0px;
+}
+#heroDiv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+#heroDiv2 {
+  display: none;
+}
+#heroText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50vw;
+}
+#heroText h1 {
+  margin: 16px;
+  text-align: center;
+}
+#heroText p {
+  font-size: 1.5rem;
+}
+#heroBttn {
+  background-color: #444345;
+  color: #c49841;
+  padding: 12px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  width: 20vw;
+  margin: 16px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+#heroBttn:hover {
+  background-color: #c49841;
+  color: #444345;
+  cursor: pointer;
+}
+#heroImage {
+  width: 50vw;
+}
+#headshot {
+  width: 40vw;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+/* --------------- About Section ---------------- */
+
+#about {
+  width: 100vw;
+  height: 100vh;
+  background-color: #444345;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#abouth1 h1 {
+  color: #ffffff;
+  margin: 0px;
+}
+#abouth1 {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+}
+#aboutDiv {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: start;
+}
+#aboutDiv2 {
+  display: none;
+}
+#aboutTB {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#aboutImage {
+  width: 50vw;
+}
+#aboutText {
+  width: 40vw;
+  text-align: justify;
+}
+#aboutText p {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+#aboutBttn {
+  background-color: #c49841;
+  color: #444345;
+  padding: 12px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  width: 20vw;
+  margin: 16px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+#aboutBttn:hover {
+  background-color: #ffffff;
+  color: #444345;
+  cursor: pointer;
+}
+#aboutheadshot {
+  width: 40vw;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+/* --------------- Location Section ---------------- */
+#locations {
+  height: 100vh;
+  width: 100vw;
+}
+#locationDiv {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#locationDiv2 {
+  display: none;
+}
+#locationTB {
+  height: 50vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#locationText {
+  text-align: center;
+}
+#locationButton {
+  background-color: #c49841;
+  color: #444345;
+  padding: 12px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  width: 20vw;
+  margin: 16px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+#locationButton:hover {
+  background-color: #444345;
+  color: #c49841;
+  cursor: pointer;
+}
+#locationTiles {
+  width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+#locationTile {
+  background-color: #444345;
+  color: #c49841;
+  padding: 12px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  width: 15vw;
+  margin: 16px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+/* --------------- Listing Section ---------------- */
+#listings {
+  width: 100vw;
+  height: 100vh;
+  background-color: #444345;
+}
+.centerDiv {
+  height: 100vh;
+  background-color: #444345;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.listingHalf {
+  width: 55vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.thumbnailDiv {
+  width: 45vw;
+  background-color: #c49841;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  margin: 16px;
+  padding: 8px;
+  
+}
+.thumbnailCont {
+  width: 15vw;
+  background-color: #c49841;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  margin: 16px;
+  padding: 8px;
+}
+.thumbnail {
+  width: 15vw;
+  border-radius: 15px;
+}
+.locationButton {
+  background-color: #c49841;
+  color: #444345;
+  padding: 12px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  width: 20vw;
+  margin: 16px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.locationButton:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.listingText {
+  color: #ffffff;
+}
+
+/* --------------- Contact Section ---------------- */
+#contact {
+  background-color: #ffffff;
+}
+#contactDiv {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#contactDiv2 {
+  display: none;
+}
+#contactHeading {
+  width: 30vw;
+  text-align: center;
+  margin-top: 46px;
+}
+#contactHeading h1 {
+  color: #000000;
+  margin: 0px;
+}
+#contactText h2 {
+  font-size: 3rem;
+  color: #000000;
+}
+#contactCards {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+#contactCard {
+  width: 20vw;
+  height: 15vw;
+  background-color: #444345;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease-in-out;
+}
+#contactCard:hover {
+  scale: 1.03;
+}
+#contactA {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: #c49841;
+  transition: all 0.3s ease-in-out;
+}
+#contactA p {
+  font-size: 1.25rem;
+}
+#contactA:hover {
+  color: #ffffff;
+}

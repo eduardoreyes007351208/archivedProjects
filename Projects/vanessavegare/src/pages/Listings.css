@@ -1,0 +1,131 @@
+/* Listings.css */
+
+#listingsWrapper {
+  min-height: 100vh; /* Ensures the wrapper takes up the full height of the screen */
+  display: flex;
+  flex-direction: column;
+}
+
+#listings {
+  flex: 1; /* This ensures the listings section takes up available space */
+  background-color: #ffffff;
+}
+
+#centerDiv {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#activeListingDiv {
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#listingText {
+  width: 100vw;
+  height: 10vh;
+  color: #444345;
+}
+
+.buttonsDiv {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.buttonCont {
+  width: 40vw;
+}
+.listingButton {
+  background-color: #444345;
+  color: #c49841;
+  padding: 12px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  width: 20vw;
+  margin: 16px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.listingButton:hover {
+  background-color: #c49841;
+  color: #444345;
+  cursor: pointer;
+}
+
+#listingCard {
+  width: 25vw;
+  height: 30vw;
+  background-color: #444345;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  font-size: 1.25rem;
+  transition: all 0.3s ease-in-out;
+}
+
+#listingCard:hover {
+  scale: 1.03;
+  background-color: #c49841;
+  color: #444345;
+}
+#listingCard:hover #listingButton {
+  background-color: #444345;
+}
+#listingCard:hover #listingButton a {
+  color: #ffffff;
+}
+
+#listingImage {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.listingTextDiv {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.listingCardText {
+  margin: 4px;
+  padding: 4px;
+}
+
+#listingButton {
+  width: 30%;
+  background-color: #c49841;
+  padding: 8px;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+#listingButton a {
+  color: #444345;
+}
+
+#listingButton:hover {
+  background-color: #ffffff;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+#listingButton:hover a {
+  color: #ffffff;
+}

@@ -1,0 +1,1013 @@
+/* --------------- Header Section ---------------- */
+.header {
+  background-image: url("$lib/assets/la_banner.webp");
+  background-size: cover;
+  height: 20vh !important;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+#header {
+  display: flex;
+  height: 20vh !important;
+}
+.mainHeader {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 30vw;
+  display: flex;
+  border-radius: 15px;
+  margin: 4px;
+  justify-content: space-evenly;
+}
+#capreHeader {
+  max-width: 128px;
+  max-width: 128px;
+}
+
+.headerWords {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.headerWords p {
+  font-size: 0.75rem;
+}
+.headerWords h2 {
+  font-size: 1.5rem;
+}
+.headerText {
+  margin: 0px;
+  color: #c49841;
+  padding: 4px;
+  text-decoration: none;
+}
+#navlist {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 15vw;
+  margin: 4px;
+  padding: 8px;
+}
+#navlist2 {
+  display: none;
+}
+.navitems {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+}
+.navText {
+  color: #c49841;
+  text-decoration: none;
+}
+.navText:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* --------------- Hero Section ---------------- */
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+}
+.hero h1 {
+  margin: 0px;
+}
+#heroDiv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+#heroDiv2 {
+  display: none;
+}
+#heroText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50vw;
+}
+#heroText h1 {
+  margin: 16px;
+  text-align: center;
+}
+#heroText p {
+  font-size: 1.5rem;
+}
+#heroBttn {
+  background-color: #444345;
+  color: #c49841;
+  padding: 12px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  width: 20vw;
+  margin: 16px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+#heroBttn:hover {
+  background-color: #c49841;
+  color: #444345;
+  cursor: pointer;
+}
+#heroImage {
+  width: 50vw;
+}
+#headshot {
+  width: 40vw;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+/* --------------- About Section ---------------- */
+#about {
+  width: 100vw;
+  height: 100vh;
+  background-color: #444345;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#abouth1 h1 {
+  color: #ffffff;
+  margin: 0px;
+}
+#abouth1 {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+}
+#aboutDiv {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: start;
+}
+#aboutDiv2 {
+  display: none;
+}
+#aboutTB {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#aboutImage {
+  width: 50vw;
+}
+#aboutText {
+  width: 40vw;
+  text-align: justify;
+}
+#aboutText p {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+#aboutBttn {
+  background-color: #c49841;
+  color: #444345;
+  padding: 12px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  width: 20vw;
+  margin: 16px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+#aboutBttn:hover {
+  background-color: #ffffff;
+  color: #444345;
+  cursor: pointer;
+}
+#aboutheadshot {
+  width: 40vw;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+/* --------------- Locations Section ---------------- */
+
+#locations {
+  height: 100vh;
+  width: 100vw;
+}
+#locationDiv {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#locationDiv2 {
+  display: none;
+}
+#locationTB {
+  height: 50vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#locationText {
+  text-align: center;
+}
+#locationButton {
+  background-color: #c49841;
+  color: #444345;
+  padding: 12px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  width: 20vw;
+  margin: 16px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+#locationButton:hover {
+  background-color: #444345;
+  color: #c49841;
+  cursor: pointer;
+}
+#locationTiles {
+  width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+#locationTile {
+  background-color: #444345;
+  color: #c49841;
+  padding: 12px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  width: 15vw;
+  margin: 16px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* --------------- Contact Section ---------------- */
+
+#contact {
+  background-color: #ffffff;
+}
+#contactDiv {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#contactDiv2 {
+  display: none;
+}
+#contactHeading {
+  width: 30vw;
+  text-align: center;
+  margin-top: 46px;
+}
+#contactHeading h1 {
+  color: #000000;
+  margin: 0px;
+}
+#contactText h2 {
+  font-size: 3rem;
+  color: #000000;
+}
+#contactCards {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+#contactCard {
+  width: 20vw;
+  height: 15vw;
+  background-color: #444345;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease-in-out;
+}
+#contactCard:hover {
+  scale: 1.03;
+}
+#contactA {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: #c49841;
+  transition: all 0.3s ease-in-out;
+}
+#contactA p {
+  font-size: 1.25rem;
+}
+#contactA:hover {
+  color: #ffffff;
+}
+
+/* ---------------- Footer --------------------- */
+
+#footer {
+  width: 100vw;
+  height: 12vh;
+  background-color: #444345;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footerContent {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+#footerLogo {
+  width: 64px;
+  height: 64px;
+}
+#copyright {
+  display: flex;
+  align-items: center;
+}
+#copyright p {
+  margin: 0px;
+  color: #c49841;
+}
+#footerLinks {
+  width: 55vw;
+}
+#linkList {
+  display: flex;
+  justify-content: start;
+}
+#linkItem {
+  width: 5vw;
+  list-style-type: none;
+}
+#linkItem:hover a {
+  color: #ffffff;
+}
+#linkItem a {
+  text-decoration: none;
+  color: #c49841;
+}
+
+/* --------------- Listings Section ---------------- */
+#centerDiv {
+  min-height: 100vw;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #444345;
+  text-align: center;
+}
+#activeListingDiv {
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+#listingText {
+  width: 100vw;
+  height: 10vw;
+  color: #ffffff;
+}
+#listingCard {
+  width: 25vw;
+  background-color: #c49841;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-size: 1.25rem;
+  transition: all 0.3s ease-in-out;
+}
+#listingCard:hover {
+  scale: 1.03;
+}
+#listingImage {
+  width: 25vw;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+#listingButton {
+  background-color: #444345;
+  padding: 8px;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+#listingButton a {
+  color: #ffffff;
+}
+#listingButton:hover {
+  background-color: #ffffff;
+  padding: 8px;
+  border-radius: 15px;
+}
+#listingButton:hover a {
+  color: #444345;
+}
+
+#soldText {
+  color: red;
+}
+
+/* ---------------- html --------------------- */
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16;
+}
+section {
+  min-height: 100vh;
+  width: 100vw;
+}
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 3.5rem;
+}
+button:hover {
+  scale: 1.05;
+}
+
+/* ------------- Dynamic Sizing ---------------- */
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+
+  .mainHeader {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px;
+    border-radius: 0px;
+  }
+  .headerWords h2 {
+    font-size: 1.25rem;
+  }
+  .headerWords p {
+    font-size: 0.75rem;
+  }
+  #navlist {
+    display: none;
+    width: 100vw;
+    margin: 0px;
+    border-radius: 0px;
+    padding: 0px;
+  }
+  #navlist2 {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    width: 100vw;
+    margin: 0px;
+    border-radius: 0px;
+    padding: 0px;
+  }
+  .navitems {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  #hamDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+  }
+  #hamburger1,
+  #hamburger2,
+  #hamburger3 {
+    width: 35px;
+    height: 5px;
+    background-color: #c49841;
+    margin: 4px 0;
+    border-radius: 5px;
+    transition: 0.4s;
+  }
+  /* --------------- Hero Section ---------------- */
+  .hero {
+    height: 100vh;
+  }
+  #heroDiv {
+    display: none;
+  }
+  #heroDiv2 {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #heroText {
+    width: 90vw;
+  }
+  #heroImage {
+    width: 90vw;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  #headshot {
+    width: 90vw;
+  }
+
+  #heroBttn {
+    width: 70vw;
+    transition: all 0.3s ease-in-out;
+  }
+  /* --------------- About Section ---------------- */
+  #abouth1 {
+    display: none;
+  }
+  #abouth1-2 h1 {
+    color: #ffffff;
+    margin: 0px;
+  }
+  #aboutDiv {
+    display: none;
+  }
+  #aboutDiv2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4px;
+  }
+  #aboutText p {
+    font-size: 1rem;
+  }
+  #aboutImage {
+    width: 90vw;
+  }
+  #aboutheadshot {
+    width: 90vw;
+  }
+  #aboutText {
+    width: 80vw;
+  }
+  #aboutBttns {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #aboutBttn {
+    width: 40vw;
+    height: 10vh;
+    font-size: 1.25rem;
+    transition: all 0.3s ease-in-out;
+  }
+  /* --------------- Locations Section ---------------- */
+  #locationDiv {
+    display: none;
+  }
+  #locationDiv2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  #locationTiles {
+    width: 100vw;
+    display: flex;
+  }
+  #locationTile {
+    width: 30vw;
+    height: 20vw;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #locationButtons {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #locationButton {
+    width: 40vw;
+    height: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+  }
+  /* --------------- Listings Section ---------------- */
+  #listings {
+    background-color: #444345;
+    min-height: 100vh;
+    width: 100vw;
+  }
+  #centerDiv {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+  #listingText {
+    height: 10vh;
+  }
+  #activeListingDiv {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0px;
+  }
+  #listingCard {
+    width: 80vw;
+    transition: all 0.3s ease-in-out;
+  }
+  #listingCard p {
+    font-size: 1.75rem;
+    margin: 16px;
+  }
+  #listingImage {
+    width: 80vw;
+  }
+  /* --------------- Contact Section ---------------- */
+  #contact {
+    height: 100vh;
+  }
+  #contactDiv {
+    display: none;
+  }
+  #contactDiv2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #contactHeading {
+    width: 100vw;
+  }
+  #contactCards {
+    height: 50vh;
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #contactCard {
+    height: 15vh;
+    width: 25vw;
+    padding: 4px;
+    transition: all 0.3s ease-in-out;
+  }
+  #contactA p {
+    margin: 0px;
+  }
+  #footer {
+    height: 15vh;
+  }
+  #footerContent {
+    width: 100vw;
+  }
+  #footerLinks {
+    width: 70vw;
+    display: flex;
+
+  }
+  #linkList {
+    width: 70vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+  }
+  #linkItem {
+    width: 15vw;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+  body {
+    width: 100%;
+  }
+  section {
+    width: 100%;
+  }
+}
+
+/* For Tablet */
+@media screen and (min-width: 540px) and (max-width: 820px) {
+  #mainHeader {
+    width: 100%;
+  }
+  .mainHeader {
+    height: 100%;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px;
+    border-radius: 0px;
+  }
+  .headerWords h2 {
+    font-size: 2.5rem;
+  }
+  .headerWords p {
+    font-size: 1rem;
+  }
+  .headerWords {
+    width: 30vw;
+  }
+  #capreLogo {
+    width: 30vw;
+  }
+  #navlist {
+    display: none;
+    width: 100vw;
+    margin: 0px;
+    border-radius: 0px;
+    padding: 0px;
+  }
+  #navlist2 {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    width: 100vw;
+    margin: 0px;
+    border-radius: 0px;
+    padding: 0px;
+  }
+  .navitems {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0px;
+  }
+  .navitems a {
+    font-size: 1.25rem;
+    padding: 12px;
+  }
+  #hamDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+  }
+  #hamburger1,
+  #hamburger2,
+  #hamburger3 {
+    width: 35px;
+    height: 5px;
+    background-color: #c49841;
+    margin: 4px 0;
+    border-radius: 5px;
+    transition: 0.4s;
+  }
+  /* --------------- Hero Section ---------------- */
+  .hero {
+    width: 100vw;
+    height: 100vh;
+  }
+  #heroDiv {
+    display: none;
+  }
+  #heroDiv2 {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #heroText {
+    width: 90vw;
+  }
+  #heroImage {
+    width: 90vw;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  #headshot {
+    width: 90vw;
+  }
+
+  #heroBttn {
+    width: 40vw;
+    transition: all 0.3s ease-in-out;
+  }
+  /* --------------- About Section ---------------- */
+  #abouth1 {
+    display: none;
+  }
+  #abouth1-2 h1 {
+    color: #ffffff;
+    margin: 0px;
+  }
+  #aboutDiv {
+    display: none;
+  }
+  #aboutDiv2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4px;
+  }
+  #aboutText p {
+    font-size: 1.25rem;
+  }
+  #aboutImage {
+    width: 90vw;
+  }
+  #aboutheadshot {
+    width: 90vw;
+  }
+  #aboutText {
+    width: 80vw;
+  }
+  #aboutBttns {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #aboutBttn {
+    width: 30vw;
+    height: 10vh;
+    font-size: 1.25rem;
+    transition: all 0.3s ease-in-out;
+  }
+  /* --------------- Locations Section ---------------- */
+  #locationDiv {
+    display: none;
+  }
+  #locationDiv2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  #locationTiles {
+    width: 100vw;
+    display: flex;
+  }
+  #locationTile {
+    width: 30vw;
+    height: 15vw;
+    margin: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #locationButtons {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+  }
+  #locationButton {
+    width: 30vw;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+  }
+  /* --------------- Listings Section ---------------- */
+  #listings {
+    background-color: #444345;
+    min-height: 100vh;
+    width: 100vw;
+  }
+  #centerDiv {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+  #listingText {
+    height: 10vh;
+  }
+  #activeListingDiv {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0px;
+  }
+  #listingCard {
+    width: 40vw;
+    transition: all 0.3s ease-in-out;
+  }
+  #listingCard p {
+    font-size: 1.75rem;
+    margin: 16px;
+  }
+  #listingImage {
+    width: 40vw;
+  }
+  /* --------------- Contact Section ---------------- */
+  #contact {
+    height: 100vh;
+  }
+  #contactDiv {
+    display: none;
+  }
+  #contactDiv2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #contactHeading {
+    width: 100vw;
+  }
+  #contactCards {
+    height: 50vh;
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #contactCard {
+    height: 15vh;
+    width: 25vw;
+    padding: 4px;
+    transition: all 0.3s ease-in-out;
+  }
+  #contactA p {
+    margin: 0px;
+  }
+  #footer {
+    height: 15vh;
+    width: 100%;
+  }
+  #footerContent {
+    width: 100vw;
+  }
+  #footerLinks {
+    width: 70vw;
+    display: flex;
+
+  }
+  #linkList {
+    width: 70vw;
+    display: flex;
+    justify-content: start;
+    padding: 0px;
+  }
+  #linkItem {
+    width: 15vw;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+  body {
+    width: 100vw;
+  }
+  section {
+    width: 100%;
+  }
+}

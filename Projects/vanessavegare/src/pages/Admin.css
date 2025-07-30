@@ -1,0 +1,166 @@
+.mainAdminDiv {
+  min-height: 100vh;
+  width: 100vw;
+}
+.adminButton {
+  background-color: #444345;
+  color: #c49841;
+  padding: 12px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  width: 20vw;
+  margin: 16px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.adminButton:hover {
+  background-color: #c49841;
+  color: #444345;
+  cursor: pointer;
+}
+.form {
+    display: flex;
+    justify-content: center;
+}
+.formDiv {
+    background-color: #444345;
+    color: #ffffff;
+    font-size: 1.5rem;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 15px;
+    align-items: center;
+}
+.formInput {
+    height: 35px;
+    width: 80%;
+    margin: 8px;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 1.25rem;
+  }
+.adminListingsDiv {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 64px;
+}
+.listingCard {
+  width: 25%;
+  height: 60%;
+  background-color: #444345;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  font-size: 1.25rem;
+  transition: all 0.3s ease-in-out;
+}
+.listingCard img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.listingCard:hover {
+  scale: 1.05;
+}
+.adminListingTextDiv {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.listingCardText {
+  margin: 4px;
+  padding: 4px;
+}
+.text {
+  color: #444345;
+}
+.listingCardButtonDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.listingCardButton {
+  width: 30%;
+  background-color: #c49841;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  font-size: 1.25rem;
+  transition: all 0.3s ease-in-out;
+}
+.listingCardButton:hover {
+  cursor: pointer;
+}
+
+/* --------------- Login Section ---------------- */
+.loginDiv {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contentDiv {
+  height: 50%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.adminText {
+  color: #444345;
+}
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.loginInput {
+  height: 35px;
+  width: 100%;
+  margin: 8px;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 1.25rem;
+}
+.loginButton {
+  background-color: #444345;
+  color: #c49841;
+  padding: 12px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  width: 80%;
+  margin: 16px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.loginButton:hover {
+  background-color: #c49841;
+  color: #444345;
+  cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
